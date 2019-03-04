@@ -40,4 +40,6 @@ unsafe fn efw_main() {
 
     writeln!(console, "Hello World!").unwrap();
     writeln!(console, "Next line!").unwrap();
+
+    loop {}
 }
