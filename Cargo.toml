@@ -1,0 +1,9 @@
+[package]
+name = "uefi-framebuffer-example"
+version = "0.1.0"
+authors = ["Richard Wiedenhöft <richard@wiedenhoeft.xyz>"]
+edition = "2018"
+
+[dependencies]
+efw = { git="https://github.com/richard-w/efw" }
+font8x8 = { version="0.2", default-features=false, features=["unicode"] }
